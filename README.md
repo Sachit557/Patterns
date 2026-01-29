@@ -3,7 +3,7 @@
 A beginner-friendly collection of **pattern printing programs in C++**.  
 This repository contains classic numeric, character, and star-based patterns implemented using basic loops and logic.
 
-Created mainly for **practice, revision, and reference** — useful for beginners learning:
+Created mainly for **practice, revision, and reference** — useful for learning:
 
 - nested loops
 - spacing logic
@@ -91,8 +91,6 @@ g++ star_pyramid.cpp -o star
 - Practice C++ fundamentals
 
 - Understand nested loops and spacing
-
-- Prepare for interviews / coding tests
 
 - Quick reference for common pattern problems
 
