@@ -88,13 +88,13 @@ g++ star_pyramid.cpp -o star
 
 ### Purpose of This Repository
 
--Practice C++ fundamentals
+- Practice C++ fundamentals
 
--Understand nested loops and spacing
+- Understand nested loops and spacing
 
--Prepare for interviews / coding tests
+- Prepare for interviews / coding tests
 
--Quick reference for common pattern problems
+- Quick reference for common pattern problems
 
 ---
 
@@ -102,8 +102,8 @@ g++ star_pyramid.cpp -o star
 
 ## Notes
 
--All files are first-commit implementations
+- All files are first-commit implementations
 
--Code focuses on clarity over optimization
+- Code focuses on clarity over optimization
 
--Feel free to modify, extend, or optimize
+- Feel free to modify, extend, or optimize
