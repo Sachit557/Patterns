@@ -4,6 +4,7 @@ A beginner-friendly collection of **pattern printing programs in C++**.
 This repository contains classic numeric, character, and star-based patterns implemented using basic loops and logic.
 
 Created mainly for **practice, revision, and reference** — useful for beginners learning:
+
 - nested loops
 - spacing logic
 - pattern construction
@@ -14,6 +15,7 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 ## Files Included
 
 ### Number Patterns
+
 - **num_pyramid.cpp**  
   Basic number pyramid pattern.
 
@@ -38,6 +40,7 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 ---
 
 ### Character Patterns
+
 - **Floyd_char_pyramid.cpp**  
   Floyd’s triangle using characters (A, B, C, ...).
 
@@ -47,6 +50,7 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 ---
 
 ### Star Patterns
+
 - **star_pyramid.cpp**  
   Star pyramid pattern.
 
@@ -56,12 +60,13 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 - **Hollow_diamond_pattern.cpp**  
   Hollow diamond star pattern.
 
-- **butterfly_pattern.cpp** *(upcoming)*  
+- **butterfly_pattern.cpp** _(upcoming)_  
   Butterfly/star pattern using symmetric loops.
 
 ---
 
 ### Executables
+
 - **digit_pyramid.exe**  
   Compiled executable (Windows).
 
@@ -71,7 +76,7 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 
 Use `g++` to compile any `.cpp` file:
 
-```bash
+````bash
 g++ filename.cpp -o output
 ./output
 
@@ -79,6 +84,8 @@ Example:
 
 g++ star_pyramid.cpp -o star
 ./star
+```bash
+
 
 🎯 Purpose of This Repository
 
@@ -99,3 +106,4 @@ All files are first-commit implementations
 Code focuses on clarity over optimization
 
 Feel free to modify, extend, or optimize
+````
