@@ -74,3 +74,28 @@ Use `g++` to compile any `.cpp` file:
 ```bash
 g++ filename.cpp -o output
 ./output
+
+Example:
+
+g++ star_pyramid.cpp -o star
+./star
+
+🎯 Purpose of This Repository
+
+Practice C++ fundamentals
+
+Understand nested loops and spacing
+
+Prepare for interviews / coding tests
+
+Quick reference for common pattern problems
+
+These patterns are intentionally simple and readable for learning purposes.
+
+📌 Notes
+
+All files are first-commit implementations
+
+Code focuses on clarity over optimization
+
+Feel free to modify, extend, or optimize
