@@ -76,7 +76,7 @@ Created mainly for **practice, revision, and reference** — useful for beginner
 
 Use `g++` to compile any `.cpp` file:
 
-````bash
+```bash
 g++ filename.cpp -o output
 ./output
 
@@ -84,8 +84,8 @@ Example:
 
 g++ star_pyramid.cpp -o star
 ./star
-```bash
 
+---
 
 🎯 Purpose of This Repository
 
@@ -106,4 +106,4 @@ All files are first-commit implementations
 Code focuses on clarity over optimization
 
 Feel free to modify, extend, or optimize
-````
+```
