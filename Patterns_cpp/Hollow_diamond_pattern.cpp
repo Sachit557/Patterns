@@ -10,29 +10,41 @@ int main(void)
     return 0;
 }
 
+#include <iostream>
+
 void hollow_diamond_pattern(int a)
 {
-    int spaces = a - 1;
     for (int i = 0; i < a; i++)
     {
-        for (int j = 0; j < spaces; j++)
-        {
+        for (int s = 0; s < a - i - 1; s++)
             std::cout << " ";
+
+        std::cout << "*";
+
+        if (i > 0)
+        {
+            for (int s = 0; s < 2 * i - 1; s++)
+                std::cout << " ";
+            std::cout << "*";
         }
 
-        std::cout << '*';
-
-        for (int k = 0; k < 2 * i - 1; k++)
-            std::cout << " ";
-        if (i != 0)
-            std::cout << "*";
-
-        // end part
-        spaces--;
         std::cout << std::endl;
     }
 
-    int b = a - 1;
+    for (int i = a - 2; i >= 0; i--)
+    {
+        for (int s = 0; s < a - i - 1; s++)
+            std::cout << " ";
 
-    // rest loop here ( second loop)
+        std::cout << "*";
+
+        if (i > 0)
+        {
+            for (int s = 0; s < 2 * i - 1; s++)
+                std::cout << " ";
+            std::cout << "*";
+        }
+
+        std::cout << std::endl;
+    }
 }
