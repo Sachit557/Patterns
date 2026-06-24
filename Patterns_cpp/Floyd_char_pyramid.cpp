@@ -13,13 +13,13 @@ int main(void)
 
 void floyd_triangle(int a)
 {
-    int k = 1;
+    char k = 'A';
 
     for (int i = 1; i <= a; i++)
     {
         for (int j = 0; j < i; j++)
         {
-            std::cout << (char)(64 + k++) << ' ';
+            std::cout << (char)(k++) << ' ';
         }
         std::cout << '\n';
     }
